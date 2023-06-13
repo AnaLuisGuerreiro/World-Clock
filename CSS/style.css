@@ -4,24 +4,14 @@ body {
   font-family: sans-serif;
 }
 
-footer {
-  text-align: center;
-  margin-top: 20px;
-}
-
-h2 {
-  margin: 0 0 10px;
-  font-size: 28px;
-}
-
 .container {
   margin: 0 auto;
-  width: 600px;
-  height: 550px;
+  width: 620px;
+  height: 570px;
   border-radius: 50%;
   background-color: rgb(210, 181, 151);
   padding: 15px;
-  box-shadow: 6px 6px 8px rgb(94, 118, 131, 0.5);
+  box-shadow: 0px 7px 29px 0px rgb(94, 118, 131, 0.5);
 }
 
 #title {
@@ -43,11 +33,17 @@ h2 {
   background-color: rgb(224, 220, 211);
 }
 
+/* Clocks */
+h2 {
+  color: rgb(76, 49, 37);
+  margin: 0 0 10px;
+  font-size: 28px;
+}
 .city {
   display: flex;
   margin: 20px 0;
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: 40px;
+  margin-right: 30px;
   padding: 10px 0;
   justify-content: space-between;
   border-bottom: 1px dashed rgb(224, 220, 211);
@@ -63,8 +59,29 @@ h2 {
 
 .time {
   font-size: 40px;
+  font-weight: bold;
 }
 
 .time small {
   font-size: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  opacity: 0.7;
+}
+
+#planet {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  margin-top: -180px;
+  margin-bottom: 35px;
+}
+
+.github {
+  color: rgb(76, 49, 37);
+  font-weight: bold;
 }
