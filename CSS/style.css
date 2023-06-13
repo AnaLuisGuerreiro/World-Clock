@@ -25,11 +25,12 @@ body {
 }
 
 #cities {
-  margin-left: 90px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  margin-left: 80px;
+  margin-bottom: 8px;
   padding: 5px;
-  width: 70%;
-  border-radius: 3px;
+  width: 75%;
+  border-radius: 5px;
   color: rgb(99, 101, 54);
   border: 1px rgb(224, 220, 211);
   background-color: rgb(224, 220, 211);
