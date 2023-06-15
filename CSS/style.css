@@ -70,6 +70,12 @@ h2 {
   font-size: 20px;
 }
 
+.back {
+  text-decoration: none;
+  color: rgb(76, 49, 37);
+  font-weight: bold;
+}
+
 /* Footer */
 footer {
   text-align: center;
